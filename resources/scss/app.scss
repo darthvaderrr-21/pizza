@@ -1,0 +1,104 @@
+@import './variables';
+@import '~noty/src/noty.scss';
+@import '~noty/src/themes/mint.scss';
+
+.container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+body {
+    font-family: 'lato',sans-serif;
+    -webkit-font-smoothing: antialised;
+    color: $dark;
+}
+
+nav li:last-child a {
+    transition: $transition;
+    &:hover {
+        background: $primary-hover;
+    }
+    background: $primary;
+}
+
+nav li a {
+    transition: $transition;
+    &:hover {
+        color: $primary;
+    }
+}
+
+section.hero {
+    background: $secondary;
+}
+
+.size {
+    background: $secondary;
+}
+
+.add-to-cart {
+    transition: $transition;
+    border: 2px solid $primary;
+    color: $primary;
+    &:hover {
+        background: $primary;
+        color: $pure;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+.btn-primary {
+    transition: $transition;
+    background: $primary;
+    &:hover {
+        background: $primary-hover;
+    }
+}
+
+section.cart {
+    background: $secondary;
+    .amount {
+        color: $primary;
+    }
+}
+
+.signin {
+    transition: $transition;
+    background: $primary;
+    &:hover {
+        background: $primary-hover;
+    }
+}
+
+.forget {
+    transition: $transition;
+    color: $primary;
+    &:hover {
+        color: $primary-hover;
+    }
+}
+
+.noty_theme__mint {
+    border-radius: 50px!important;
+    padding-left: 8px!important;
+}
+
+.user-name{
+    color: $primary;
+}
+
+.link {
+    color: $primary;
+}
+
+.text-primary {
+    color: $primary;
+}
+
+// section.register form input{
+//     &:focus{
+//         outline: false;
+//     }
+// }

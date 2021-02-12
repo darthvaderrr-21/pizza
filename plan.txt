@@ -1,0 +1,49 @@
+step1 . Create directory structure
+
+step2 . Create npm/yarn project and install dependencies
+        -Dependencies
+         1. express
+         2. ejs
+         3. express-ejs-layouts
+        -Dev dependencies
+         1. nodemon
+
+step3 . Create express server - create server.js file.
+
+step4 . Git setup and first commit.
+         -git init
+         -git status
+         -git add .
+         -git config --global user.email "you@example.com"
+         -git commit -m 'initial'
+
+step5 . Install laravel-mix.
+        -setup js and scss
+
+step6 . Install Talwind css.
+
+step7 . Create home page.
+
+step8 . Create cart page.
+        -Order summry
+        -Empty cart
+
+step9 . Move routes to routes files.
+
+step10. Create controllers.
+
+step11. Add-to-cart functionality
+        -Fetch all the pizzas from db and show on home page.
+        -Create menu model and put dummy data.
+                -connect to mongo-DB database.
+                -use "connect-mongo" for session store.
+                -install dependencies:
+                   -mongoose, express-session, connect-mongo, dotenv.
+
+        -axios to send ajax request.
+        -install notification library npm i noty.
+
+step12. Create login and register page with route set.
+
+step13. Build register crud.
+        
